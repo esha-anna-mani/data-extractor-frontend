@@ -1,0 +1,41 @@
+span{
+    font-size: 30px !important;
+    color: #0077b6 !important;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.cus-btn{
+    background-color: #0077b6 !important;
+    color: white !important;
+    width: fit-content;
+    font-size: 20px;
+    padding: 5px;
+    height: fit-content;
+    border-radius: 5%;
+}
+
+.cus-btn:hover{
+    color: #0077b6 !important;
+}
+
+.back-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("../assets/data3.jpg") !important;
+    background-size:cover;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.nav-link{
+    font-size: 20px;
+    text-decoration: underline #0077b6;
+    color: #0077b6;
+}
+.butt-div{
+    padding: 20px;
+}
+
+.ca-tit{
+    padding: 15px;
+}

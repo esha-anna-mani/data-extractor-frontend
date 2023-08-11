@@ -1,9 +1,10 @@
 import './App.css';
-import {BrowserRouter, Route} from "react-router-dom"
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
+import {BrowserRouter, Route} from "react-router-dom";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
 import Signup from './components/signup';
-import Login from "./components/Login"
+import Login from "./components/Login";
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route exact path="/"><Home/></Route>
       <Route path="/signup"><Signup /></Route>
       <Route path="/login"><Login /></Route>
+      <Route path="/profile"><Profile /></Route>
     </BrowserRouter>
 
   );
